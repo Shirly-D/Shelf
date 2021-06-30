@@ -102,10 +102,68 @@ li {
   max-width: 1360px;
   width: 86%; 
   margin: 0 auto;
+  background-color: white;
+}
+/* for container */
+.container {
+  background-color: darkslategrey;
 }
 /*=================================
   Header styling starts here
 =================================*/
+header > img {
+  width: 100%;
+  height: auto;
+}
+
+.banner-heading {
+  text-transform: uppercase;
+  font-size: 44px;
+  color: white;
+}
+
+.banner-section span {
+  color: white;
+  font-size: 20px;
+}
+
+.banner-section span::first-letter {
+  text-transform: capitalize;
+}
+
+.nav-section {
+  width: 100%;
+  height: 80px;
+}
+
+.nav-section ul li a::first-letter {
+  text-transform: capitalize;
+}
+
+.nav-section {
+  top: 60%;
+  position: absolute;
+
+}
+
+.nav-section ul li a {
+  color: white;
+  font-size: 22px;
+  display: inline-block;
+  padding: 30px 85px;
+  text-align: center;
+  
+}
+
+.nav-section ul li:active {
+  color: blue;
+}
+
+.banner-section {
+  position: absolute;
+  top: 20%;
+  left: 15%;
+}
 
 
 
@@ -119,6 +177,23 @@ li {
 /*=================================
   main styling starts here
 =================================*/
+
+main .wrapper {
+  width: 76%; 
+  margin: 0 auto;
+  padding:  90px 5%;
+}
+
+.section-text {
+  font-size: 30px;
+  color: darkgrey;
+}
+
+.section-text::first-letter {
+  text-transform: uppercase;
+}
+
+
 
 
 
