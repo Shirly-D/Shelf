@@ -114,6 +114,7 @@ li {
 .container {
   background-color: darkslategrey;
 }
+
 /*=================================
   Header styling starts here
 =================================*/
@@ -302,7 +303,6 @@ main .wrapper {
 }
 
 
-
 /*=================================
   main styling ends here
 =================================*/
@@ -325,19 +325,16 @@ footer p {
 }
 
 
-
-
-
-
-
- /*=================================
+/*=================================
   footer styling ends here
 =================================*/ 
 
 /*media query starts*/
 /*media query for 995px starts here*/
 @media only screen and (max-width: 995px) {
+.container {
+  margin: 1em 2em;
 
-
+       }
 
 }  
