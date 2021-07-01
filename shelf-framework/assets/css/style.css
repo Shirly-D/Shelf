@@ -106,7 +106,7 @@ li {
 /*for wrapper*/
 .wrapper {
   max-width: 1360px;
-  width: 86%; 
+  width: 91%; 
   margin: 0 auto;
 }
 /* for container */
@@ -129,8 +129,8 @@ header .wrapper {
 
 .banner-section {
   position: absolute;
-  top: 20%;
-  left: 13%;
+  top: 150px;
+  left: 7%;
 }
 
 .banner-heading a{
@@ -149,22 +149,26 @@ header .wrapper {
 }
 
 .nav-section {
+  position: absolute;
+  bottom: 0;
   width: 100%;
   height: 80px;
 }
 
-.nav-section {
-  position: absolute;
-  bottom: 0;
+.nav-section ul li {
+  margin-left: 12%;
+}
 
+.nav-section ul li:first-child {
+  margin: 0;
 }
 
 .nav-section ul li a{
   color: #fff;
-  font-size: 22px;
+  font-size: 28px;
   display: inline-block;
   text-align: center;
-  opacity: 0.7;
+  opacity: 0.5;
   text-transform: capitalize;
   
 }
@@ -173,7 +177,7 @@ header .wrapper {
 } 
 
 .nav-section ul li a:hover {
-  color: #0000ff;
+  color: #70708b;
 }
 
 
@@ -185,16 +189,16 @@ header .wrapper {
   main styling starts here
 =================================*/
 
-main .wrapper {
-  width: 86%; 
+main {
+  width: 100%; 
   margin: 0 auto;
   border-top: 5px solid #0000ff;
 }
 
 .section-text {
   font-size: 30px;
-  color: darkgrey;
-  padding: 60px 0 30px 40px;
+  color: #708090;
+  margin-top: 70px;
 }
 
 .section-text::first-letter {
@@ -309,17 +313,14 @@ main .wrapper {
   footer styling starts here
 =================================*/ 
 
-footer .wrapper {
+footer {
   background-color: #2f4f4f;
-  
 }
 
 footer p {
   text-align: center;
   color: #fff;
   font-size: 20px;
-  margin-top: 20px;
-  padding-bottom: 20px;
 }
 
 
