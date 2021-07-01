@@ -111,7 +111,6 @@ li {
 }
 /* for container */
 .container {
-  background-color: #fff;
   width: 100%;
 }
 
@@ -119,7 +118,11 @@ li {
   Header styling starts here
 =================================*/
 
-header  img {
+header {
+  position: relative;
+}
+
+header .wrapper {
   width: 100%;
   height: auto;
 }
@@ -142,9 +145,6 @@ header  img {
   color: white;
   font-size: 22px;
   text-shadow: 2px 2px #000;
-}
-
-.banner-text {
   text-transform: capitalize;
 }
 
@@ -153,13 +153,9 @@ header  img {
   height: 80px;
 }
 
-.nav-section ul li a {
-  text-transform: capitalize;
-}
-
 .nav-section {
-  top: 62%;
   position: absolute;
+  bottom: 0;
 
 }
 
@@ -167,11 +163,12 @@ header  img {
   color: #fff;
   font-size: 22px;
   display: inline-block;
-  padding: 30px 82px;
   text-align: center;
+  opacity: 0.7;
+  text-transform: capitalize;
   
 }
- .nav-section ul li:first-child a {
+ .nav-section ul li a.active {
   color: #0000ff;
 } 
 
