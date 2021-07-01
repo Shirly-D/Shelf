@@ -108,16 +108,18 @@ li {
   max-width: 1360px;
   width: 86%; 
   margin: 0 auto;
-  background-color: white;
 }
 /* for container */
 .container {
-  background-color: darkslategrey;
+  background-color: #fff;
+  width: 100%;
 }
+
 /*=================================
   Header styling starts here
 =================================*/
-header > img {
+
+header  img {
   width: 100%;
   height: auto;
 }
@@ -302,7 +304,6 @@ main .wrapper {
 }
 
 
-
 /*=================================
   main styling ends here
 =================================*/
@@ -325,19 +326,16 @@ footer p {
 }
 
 
-
-
-
-
-
- /*=================================
+/*=================================
   footer styling ends here
 =================================*/ 
 
 /*media query starts*/
 /*media query for 995px starts here*/
 @media only screen and (max-width: 995px) {
+.container {
+  margin: 1em 2em;
 
-
+       }
 
 }  
