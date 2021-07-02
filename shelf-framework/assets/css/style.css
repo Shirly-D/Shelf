@@ -207,29 +207,39 @@ main {
 
 .section-para {
   font-size: 18px;
-  padding-left: 40px;
-  padding-right: 20px;
-  margin-bottom: 40px;
+  margin-top: 25px;
+  margin-bottom: 30px;
+}
+
+.section-division {
+  width: 100%;
+  margin-top: 40px;
 }
 
 .section-division ul {
   width: 100%;
-  padding: 0 2.4%;
 }
 
 .section-division li {
   vertical-align: top;
   width: 22%;
   display: inline-block;
-  margin-left: 1%;
-  margin-bottom: 1%;
   text-align: center;
   font-size: 20px;
-  padding-bottom: 2%;
+  margin-left: calc(2% - 5px);
+  margin-bottom: 30px;
 }
 
-.section-division li figure {
-  padding-bottom: 25px;
+.section-division figure {
+  margin-bottom: 20px;
+}
+
+.section-division li:nth-child(4n) {
+  margin-right: 0;
+}
+
+.section-division li:nth-child(4n - 3) {
+  margin-left: 0;
 }
 
 .section-number {
@@ -238,63 +248,61 @@ main {
   margin-bottom: 80px;
 }
 
-.section-number a {
+.section-number span {
   font-size: 25px;
   padding: 15px 20px;
   border: 1px solid #708090;
   margin-left: 8px;
   color: #fff;
   background-color: #708090;
-  
 }
-.section-number a:first-child {
+
+.section-number span:first-child {
+  margin-left: 0;
+}
+.section-number span.active {
   background-color: #0000ff;
   color: #fff;
 }
 
-.section-number a:hover {
+.section-number span:hover {
   background-color: #0000ff;
   color: #fff;
 }
 
 .help-section {
-  margin-left: 4%;
-  margin-right: 4%;
-  padding-bottom: 80px;
   display: inline-block;
-  margin-bottom: 80px;
+  margin-bottom: 40px;
   background-color: #0000ff;
+  padding: 50px 4%;
 }
 
 .help-section figure {
-  width: 12%;
+  width: 16%;
   height: 135px;
-  padding-left: 8%;
-  padding-top: 80px;
   display: inline-block;
+  vertical-align: top;
+  margin-top: 30px;
 }
 
 .help-section div {
   display: inline-block;
-  width: 70%;
-  margin-left: 5%;
-  top: 5%;
   vertical-align: top;
-  
+  width: 70%;
+  margin-left: 10%;
 }
 
 .help-text {
   font-size: 40px;
   text-transform: capitalize;
   color: #fff;
-  padding-bottom: 20px;
-  padding-top: 60px;
+  margin-bottom: 15px;
 }
 
 .help-para {
   color: #fff;
   font-size: 20px;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .help-section div a {
@@ -315,7 +323,9 @@ main {
 
 footer {
   background-color: #2f4f4f;
+  padding: 10px;
 }
+
 
 footer p {
   text-align: center;
